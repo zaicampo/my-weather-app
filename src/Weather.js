@@ -3,7 +3,7 @@ import "./Weather.css";
 
 export default function Weather() {
   return (
-    <div className="weather-app m-4">
+    <div className="weather-app">
       <form id="city-form">
         <div className="row">
           <div className="col-9" id="city-search">
@@ -27,9 +27,9 @@ export default function Weather() {
         </div>
       </form>
       <h1 id="city-name">Bogotá</h1>
-      <ul>
-        <li>Sat 8 Apr</li>
-        <li>Mostly Cloudy</li>
+      <ul className="nowInfo">
+        <li id="date">Sat 8 Apr</li>
+        <li id="weather-description">Mostly Cloudy</li>
       </ul>
       <div className="row">
         <div className="col-6">
@@ -55,7 +55,7 @@ export default function Weather() {
           </span>
         </div>
         <div className="col-6">
-          <ul>
+          <ul className="weatherInfo">
             <li>Precipitation: 15%</li>
             <li>Humidity: 75%</li>
             <li>Wind: 13Km/h</li>
