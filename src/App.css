@@ -1,8 +1,15 @@
-.App {
+.App .weather {
   max-width: 700px;
   margin: 60px auto;
   padding: 20px;
   background-color: #f9f7fd;
   border: 1px solid #a8a5b4;
   border-radius: 10px;
+}
+
+.App .codeInfo {
+  text-align: center;
+  line-height: 1px;
+  position: relative;
+  bottom: 30px;
 }

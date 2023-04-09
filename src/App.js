@@ -4,7 +4,15 @@ import Weather from "./Weather";
 function App() {
   return (
     <div className="App">
-      <Weather defaultcity="Barrancabermeja" />
+      <section className="weather">
+        <Weather defaultcity="Barrancabermeja" />
+      </section>
+      <footer className="codeInfo">
+        <a href="https://github.com/zaicampo/my-weather-app">
+          Open source code
+        </a>
+        <span>{""} by Zaira Campo</span>
+      </footer>
     </div>
   );
 }
