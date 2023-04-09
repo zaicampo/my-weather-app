@@ -31,37 +31,19 @@
 }
 
 img {
-  width: 30%;
+  margin: 10px auto;
 }
 
 #temperature {
   font-size: 50px;
   font-weight: bold;
+}
+
+.WeatherTemperature {
   position: relative;
-  bottom: -20px;
-}
-
-#cel-unit {
-  text-decoration: none;
-  font-size: 16px;
-}
-
-.active {
-  color: #212121;
-  cursor: default;
-}
-
-.active:hover {
-  color: #212121;
-}
-
-#fah-unit {
-  text-decoration: none;
-  font-size: 16px;
-}
-
-#fah-unit:hover {
-  text-decoration: none;
+  line-height: 1px;
+  left: 110px;
+  bottom: 60px;
 }
 
 .weatherInfo {
